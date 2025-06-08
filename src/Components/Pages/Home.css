@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+      background-image: url('../../assets/markme2.jpg');
+        background-position: right;
+        background-size: cover;
+        background-repeat: no-repeat;
+       
+        
+
+}
+
+.hero{
+    margin: 4rem ;
+    padding: 5rem;
+    font-size: 24px;
+    display: block;
+      
+    
+}
+.hero span {
+  border: 0 solid transparent;       /* Initially no border */
+  border-radius: 0;                  /* No rounding */
+  margin: 4px;
+  padding: 4px;
+  display: inline-block;
+  transition: border 0.4s ease, border-radius 0.4s ease;
+}
+
+.hero span:hover {
+  border: 5px solid #667eea;         /* Border appears on hover */
+  border-radius: 12px;               /* Smooth rounded corners */
+}
+
+button{
+    margin: 1rem;
+    padding: 1rem;
+    font-size: 1.2rem;
+    color: black;
+    background-color: #667eea;
+     border: 0 solid transparent; 
+    border-radius: 5px;
+}
+button:hover{
+    color: white;
+    background-color: black;
+     border: 5px solid #667eea;         /* Border appears on hover */
+  border-radius: 12px; 
+
+}
+
+.hero p{
+    
+    margin: 1.1rem;
+    
+}
