@@ -17,7 +17,7 @@ function Navbar() {
 
   return (
     <>
-      <header>
+      <header >
         <nav>
           <img src='logo' alt="logo" />
           
