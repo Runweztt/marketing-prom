@@ -61,3 +61,117 @@ button:hover{
     margin: 1.1rem;
 
 }
+
+.logo-carousel {
+  padding: 2rem;
+  background-color: white;
+}
+
+.carousel-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.carousel-item img {
+  width: 120px;
+  height: auto;
+  margin-bottom: 1rem;
+  border-radius: 8px;
+  transition: transform 0.6s ease-in-out;
+}
+
+.carousel-item p {
+  font-size: 0.95rem;
+  max-width: 250px;
+  color: #333;
+}
+
+.carousel-item:hover img {
+  transform: scale(1.05);
+}
+
+.Container1{
+
+      display: flex;
+      justify-content: center;
+
+}
+
+.main1{
+  height: 50vh;
+  width: 50%;
+  margin: 1rem;
+  padding: 2rem;
+  gap: 1px;
+  border: 0 solid transparent;
+  border-radius: 5px;
+    box-shadow: 0 25px 50px rgba(0, 0, 0, 0.15);
+ 
+}
+.main1:hover{
+  
+    border: 1px solid #667eea;         /* Border appears on hover */
+    border-radius: 12px; 
+
+}
+.main1 h2{
+  margin: 1rem;
+  padding: 1rem;
+  font-size: 30px;
+  font-weight: 300;
+  font-style: italic;
+  text-align: center;
+  
+
+}
+
+.main1 p{
+  margin: 1rem;
+  padding: 1rem;
+  text-align: center;
+}
+.btn{
+  align-items: center;
+  align-items: center;
+}
+.main1 img{
+   width: 100%;
+  height: 310px;
+  object-fit: cover;
+ 
+}
+
+
+.Container2{
+
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      
+
+      
+
+}
+.content{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 1000px;
+  width: 100%;
+  border: #333 solid;
+}
+
+.content-text{
+  width: 50%;
+}
+
+.content-image img {
+    width: 60%;
+  height: 710px;
+  object-fit: cover;
+  margin: 3rem;
+  padding: 2rem;
+
+}
