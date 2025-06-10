@@ -222,7 +222,17 @@ button:hover{
 
 
 }
-
+.content-text p{
+   /* soft background */
+  border-left: 5px solid #764ba2; /* accent line */
+  padding: 1rem 1.5rem;
+  margin: 1rem 0;
+  font-size: 1.1rem;
+  line-height: 1.6;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+  color: #333;
+}
 .service-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
