@@ -160,6 +160,7 @@ button:hover{
   width: 100%;
   margin: auto;
   box-sizing: border-box;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.08);
  
 }
 
@@ -168,30 +169,99 @@ button:hover{
   width: 50%;
   padding: 1rem;
   margin: 1rem;
+  
 }
 
 .content-image img {
-    width: 100%;
+    width: 80%;
   height: auto;
   object-fit: cover;
   display: block;
+  margin: 6rem;
+  padding: 1rem;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.08);
   
 
 }
 
 .content-text {
-  width: 50%;
+  width: 70%;
   display: flex;
   flex-direction: column;
   padding: 2rem;
   box-sizing: border-box;
   text-align: center;
+  
+}
+.content-text h1{
+  text-align: center;
+   margin: 1rem;
+   padding: 1rem;
+   font-size: 60px;
+   font-weight: 200;
 }
 
 .content-text div {
+  margin-bottom: 1rem;
+  
+}
+
+.content-text span {
+  font-weight: bold;
+  border: 3px solid  transparent;
+  padding: 5px;
+  margin: 10px;
+  font-size: 25px;
+  border-radius: 7px;
+  
+}
+
+.content-text span:hover{
+  border: 1px solid #667eea;         /* Border appears on hover */
+    border-radius: 12px; 
+
+
+}
+
+.service-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+@media (max-width: 768px) {
+  .service-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.service-grid div {
   margin-bottom: 1rem;
 }
 
 .content-text span {
   font-weight: bold;
+  border: 3px solid transparent;
+  padding: 5px;
+  margin: 10px;
+  font-size: 25px;
+  border-radius: 7px;
+}
+
+.content-text span:hover {
+  border: 1px solid #667eea;
+  border-radius: 12px;
+}
+
+.content-text p {
+  
+  border-left: 5px solid #764ba2;
+  padding: 1rem 1.5rem;
+  margin: 1rem 0;
+  font-size: 1.1rem;
+  line-height: 1.6;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+  color: #333;
 }

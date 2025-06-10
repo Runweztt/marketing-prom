@@ -141,41 +141,45 @@ function Home() {
 
 
 
-<div className='container2'>
-  <div className='content'>
+      <div className='container2'>
+        <div className='content'>
 
 
-  <div className='content-image'>
-    <img src={mark5} alt="content" />
-  </div>
 
 
-  <div className='content-text'>
-    <h1>Core Services Section</h1>
+          <div className='content-text'>
+            <h1>Core Services</h1>
 
-    <div>
-      <span>Paid Ads Management (PPC)</span>
-      <p>Maximise Your Budget, Minimise Your Worry... </p>
-    </div>
-    {/* repeat as needed */}
-     <div>
-      <span>Paid Ads Management (PPC)</span>
-      <p>Maximise Your Budget, Minimise Your Worry... </p>
-    </div>
-     <div>
-      <span>Paid Ads Management (PPC)</span>
-      <p>Maximise Your Budget, Minimise Your Worry... </p>
-    </div>
-     <div>
-      <span>Paid Ads Management (PPC)</span>
-      <p>Maximise Your Budget, Minimise Your Worry... </p>
-    </div>
-  </div>
+            <div className="service-grid">
+              <div>
+                <span>Paid Ads Management </span>
+                <p>Maximise Your Budget, Minimise Your Worry...</p>
+              </div>
+              <div>
+                <span>Social Media Marketing</span>
+                <p>Reach Your Audience Where They Hang Out...</p>
+              </div>
+              <div>
+                <span>SEO Services</span>
+                <p>Rank Higher. Get Found. Grow Organically.</p>
+              </div>
+              <div>
+                <span>Analytics & Reporting</span>
+                <p>Know What Works, Drop What Doesn’t...</p>
+              </div>
+            </div>
+          </div>
 
 
-  
-  </div>
-</div>
+
+          <div className='content-image'>
+            <img src={mark5} alt="content" />
+          </div>
+
+
+
+        </div>
+      </div>
 
 
 
