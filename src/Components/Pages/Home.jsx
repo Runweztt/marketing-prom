@@ -62,15 +62,14 @@ function Home() {
       description: 'Tech startup hit 7 figures using AI-powered outreach.',
     },
   ];
-
-   const [color, setColor] = useState('white')
+  const [color, setColor] = useState('linear-gradient(to right,rgb(248, 253, 255),rgb(47, 69, 111))'); 
 
    useEffect(()=>{
       const handleColor = ()=>{
-        if (window.scrollY >= 130){
-          setColor('wheat')
+        if (window.scrollY >= 200){
+         setColor('linear-gradient(white, white)');
         }else{
-          setColor('white')
+          setColor('linear-gradient(to right,rgb(248, 253, 255),rgb(223, 225, 229))')
         }
       }
       window.addEventListener('scroll',handleColor);
