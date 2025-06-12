@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { NavLink } from 'react-router-dom';
 import { FaBars, FaTimes } from 'react-icons/fa';
+import logo from '../../assets/LOGO-01.JPG'
 
 import './Navbar.css';
 
@@ -19,7 +20,7 @@ function Navbar() {
     <>
       <header >
         <nav>
-          <img src='logo' alt="logo" />
+          <img src={logo} alt="logo" />
           
           {/* Desktop Navigation */}
           <ul className="desktop-nav">

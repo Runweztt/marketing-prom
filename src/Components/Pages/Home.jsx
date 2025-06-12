@@ -62,20 +62,20 @@ function Home() {
       description: 'Tech startup hit 7 figures using AI-powered outreach.',
     },
   ];
-  const [color, setColor] = useState('linear-gradient(to right,rgb(248, 253, 255),rgb(47, 69, 111))'); 
+  const [color, setColor] = useState('linear-gradient(to right,rgb(248, 253, 255),rgb(47, 69, 111))');
 
-   useEffect(()=>{
-      const handleColor = ()=>{
-        if (window.scrollY >= 200){
-         setColor('linear-gradient(white, white)');
-        }else{
-          setColor('linear-gradient(to right,rgb(248, 253, 255),rgb(223, 225, 229))')
-        }
+  useEffect(() => {
+    const handleColor = () => {
+      if (window.scrollY >= 200) {
+        setColor('linear-gradient(white, white)');
+      } else {
+        setColor('linear-gradient(to right,rgb(248, 253, 255),rgb(223, 225, 229))')
       }
-      window.addEventListener('scroll',handleColor);
-      handleColor();
-      return ()=>{window.removeEventListener('scroll',handleColor)}
-   },[])
+    }
+    window.addEventListener('scroll', handleColor);
+    handleColor();
+    return () => { window.removeEventListener('scroll', handleColor) }
+  }, [])
 
 
   return (
@@ -94,7 +94,7 @@ function Home() {
         </div>
       </div>
 
-      <div className="logo-carousel"style={{background:color}}>
+      <div className="logo-carousel" style={{ background: color }}>
         <Swiper
           slidesPerView={3}
           spaceBetween={30}
@@ -124,7 +124,7 @@ function Home() {
 
 
 
-     
+
 
 
 
@@ -167,17 +167,36 @@ function Home() {
 
       <div className='container3'>
         <div className='product'>
+          <div className='prod-content'>
+            <img src={Gemini01} alt="tracker" />
+            <div className="prod-text">
+              <h2>Finance Tracker</h2>
+              <p>Track income, expenses, and trends effortlessly with AI-powered insights that help small businesses stay ahead financially — no spreadsheets required.</p>
+            </div>
+          </div>
+        </div>
 
+        <div className='product'>
+          <div className='prod-content'>
+            <img src={Gemini01} alt="tracker" />
+            <div className="prod-text">
+              <h2>Finance Tracker</h2>
+              <p>Track income, expenses, and trends effortlessly with AI-powered insights that help small businesses stay ahead financially — no spreadsheets required.</p>
+            </div>
+          </div>
         </div>
         <div className='product'>
-
+          <div className='prod-content'>
+            <img src={Gemini01} alt="tracker" />
+            <div className="prod-text">
+              <h2>Finance Tracker</h2>
+              <p>Track income, expenses, and trends effortlessly with AI-powered insights that help small businesses stay ahead financially — no spreadsheets required.</p>
+            </div>
+          </div>
         </div>
-        <div className='product'>
 
-        </div>
-        <div className='product'>
 
-        </div>
+
 
       </div>
 
@@ -188,7 +207,7 @@ function Home() {
 
 
 
-       <div className='Container1'>
+      <div className='Container1'>
         <div className='main1' data-aos="zoom-in" data-aos-delay="2000">
           <h2>Smart AI Marketing for Small Business Growth</h2>
 
@@ -203,7 +222,7 @@ function Home() {
           <img src={markme1} alt="AI-powered marketing graphic" />
         </div>
       </div>
-           
+
 
 
 

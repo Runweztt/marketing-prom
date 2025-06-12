@@ -254,21 +254,48 @@
   max-width: 1400px;
   width: 100%;
   margin: 0 auto;
-  background-color: black;
+  background-color: rgb(149, 138, 138);
   color: white;
   flex-direction: column;
-  height: 100vh;
+  height: 130vh;
   transition: background-color 0.3s ease;
 }
-
-.product{
+.product {
   width: 70%;
-  height: auto;
   display: flex;
+  flex-direction: row;
   background-color: white;
-  margin: 2rem;
+  margin: 2rem auto;
   padding: 2rem;
-  
+  gap: 2rem;
+  align-items: flex-start;
+}
+
+.prod-content {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 1.5rem;
+  background-color: aliceblue;
+  padding: 1rem;
+}
+
+.prod-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.prod-content img {
+  width: 120px;
+  height: auto;
+}
+
+.product h2 {
+  background-color: #333;
+  color: white;
+  padding: 0.5rem;
 }
 
 
