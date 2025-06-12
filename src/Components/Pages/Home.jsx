@@ -29,46 +29,54 @@ function Home() {
     {
       id: 'gemini1',
       image: Gemini01,
-      description:
-        'Mark & Don, a real estate leader, experienced a 10% to 200% revenue leap in just one year through our data-driven marketing strategy.',
+      description: 'Real estate firm tripled leads with AI follow-ups and tracking.',
     },
     {
       id: 'gemini2',
       image: Gemini02,
-      description:
-        'A struggling online fashion brand was repositioned with performance ads and influencer strategy — resulting in a 3x ROAS within 6 months.',
+      description: 'Fashion brand cut waste and boosted ROAS using AI sales tools.',
     },
     {
       id: 'gemini3',
       image: Gemini03,
-      description:
-        'We helped a local fitness app scale nationally by optimising user funnels, leading to a 70% boost in subscriptions.',
+      description: 'Fitness app grew 70% by automating onboarding and plans.',
     },
     {
       id: 'gemini4',
       image: Gemini04,
-      description:
-        'An e-learning startup hit 15k active users in 90 days after we refined their ad copy and launched a targeted social campaign.',
+      description: 'Edtech startup gained 15k users with AI chat and lessons.',
     },
     {
       id: 'gemini5',
       image: Gemini05,
-      description:
-        'A boutique skincare brand saw a 400% surge in Shopify sales post-launch — all thanks to strategic email flows and retargeting ads.',
+      description: 'Skincare brand boosted sales 4x with AI quizzes and support.',
     },
     {
       id: 'gemini6',
       image: Gemini06,
-      description:
-        'We helped a logistics firm improve B2B lead gen by 60% through a LinkedIn content system paired with outbound email strategy.',
+      description: 'Logistics firm got 60% more leads via AI workflows.',
     },
     {
       id: 'gemini7',
       image: Gemini07,
-      description:
-        'A tech hardware startup crossed its first 7-figure quarter after our campaign repositioned their product to the enterprise market.',
+      description: 'Tech startup hit 7 figures using AI-powered outreach.',
     },
   ];
+
+   const [color, setColor] = useState('white')
+
+   useEffect(()=>{
+      const handleColor = ()=>{
+        if (window.scrollY >= 130){
+          setColor('wheat')
+        }else{
+          setColor('white')
+        }
+      }
+      window.addEventListener('scroll',handleColor);
+      handleColor();
+      return ()=>{window.removeEventListener('scroll',handleColor)}
+   },[])
 
 
   return (
@@ -79,16 +87,15 @@ function Home() {
             <span>Grow Smarter</span>, Not Harder.
           </h1>
           <p>
-            We’re Zone Marketing—a data-driven digital agency helping ambitious small businesses attract more customers,
-            generate more leads, and grow confidently online
+            Simple AI automation to manage tasks, track performance, and grow without stress.
           </p>
-          <button data-aos="zoom-in" data-aos-delay="1000">
-            Book Your Free Consultation
+          <button className='button1' data-aos="zoom-in" data-aos-delay="1000">
+            Get Started
           </button>
         </div>
       </div>
 
-      <div className="logo-carousel">
+      <div className="logo-carousel"style={{background:color}}>
         <Swiper
           slidesPerView={3}
           spaceBetween={30}
@@ -118,23 +125,8 @@ function Home() {
 
 
 
-      <div className='Container1'>
-        <div className='main1' data-aos="zoom-in" data-aos-delay="2000">
-          <h2>Marketing That Works as Hard as You Do</h2>
+     
 
-          <p>Running a small business is tough. Between juggling customers, managing operations,
-            and planning for growth, you need marketing that delivers—not drains your time or budget. That’s where we come in.
-            At Zone Marketing, we turn data into strategy, clicks into customers, and content into conversions.</p>
-
-          <button className='btn'>
-            Let’s Build Your Growth Strategy</button>
-
-        </div>
-        <div className='main1' data-aos="zoom-in" data-aos-delay="800">
-          <img src={markme1} alt="markme1" />
-
-        </div>
-      </div>
 
 
 
@@ -144,42 +136,76 @@ function Home() {
       <div className='container2'>
         <div className='content'>
 
-
-
-
           <div className='content-text'>
             <h1>Core Services</h1>
 
             <div className="service-grid">
               <div>
-                <span>Paid Ads Management </span>
-                <p>Maximise Your Budget, Minimise Your Worry...</p>
+                <span>AI-Powered Marketing</span>
+                <p>Automate and optimise your campaigns with AI—get more leads with less effort.</p>
               </div>
               <div>
-                <span>Social Media Marketing</span>
-                <p>Reach Your Audience Where They Hang Out...</p>
+                <span> Web Development</span>
+                <p>Smart, responsive websites built with AI to adapt, convert, and scale with your business.</p>
               </div>
               <div>
-                <span>SEO Services</span>
-                <p>Rank Higher. Get Found. Grow Organically.</p>
+                <span>AI Automation Systems</span>
+                <p>From task scheduling to customer follow-ups—let AI handle the busywork for you.</p>
               </div>
               <div>
-                <span>Analytics & Reporting</span>
-                <p>Know What Works, Drop What Doesn’t...</p>
+                <span>Real-Time Data & Insights</span>
+                <p>Know what’s working instantly with live dashboards powered by AI-driven analytics.</p>
               </div>
             </div>
           </div>
 
 
-
-          <div className='content-image'>
-            <img src={mark5} alt="content" />
-          </div>
-
-
-
         </div>
       </div>
+
+
+
+
+      <div className='container3'>
+        <div className='product'>
+
+        </div>
+        <div className='product'>
+
+        </div>
+        <div className='product'>
+
+        </div>
+        <div className='product'>
+
+        </div>
+
+      </div>
+
+
+
+
+
+
+
+
+       <div className='Container1'>
+        <div className='main1' data-aos="zoom-in" data-aos-delay="2000">
+          <h2>Smart AI Marketing for Small Business Growth</h2>
+
+          <p>Running a business is hard—your marketing shouldn't be. We use AI to turn your traffic into leads, your content into conversions, and your time into results.</p>
+
+          <button className='btn'>
+            Build My Growth Plan
+          </button>
+        </div>
+
+        <div className='main1' data-aos="zoom-in" data-aos-delay="800">
+          <img src={markme1} alt="AI-powered marketing graphic" />
+        </div>
+      </div>
+           
+
 
 
 

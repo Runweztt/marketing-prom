@@ -46,7 +46,7 @@ function Navbar() {
       {/* Mobile Navigation Menu */}
       <div className={`mobile-nav ${navOpen ? 'open' : ''}`}>
         <button className="close-btn" onClick={closeNav} aria-label="Close Menu">
-          <FaTimes />
+          {/* <FaTimes /> */}
         </button>
         
         <ul>
