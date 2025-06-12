@@ -94,7 +94,7 @@ nav img {
   right: 0;
   width: 80%;
   height: 100vh;
-  background-color: wheat;
+  background-color: white;
   transform: translateX(100%);
   transition: transform 0.4s ease;
   display: flex;
@@ -139,7 +139,7 @@ nav img {
 
 .mobile-nav li a:hover,
 .mobile-nav li a.active {
-  background-color: #ffa94d;
+  background-color: #667eea;
   padding-left: 10px;
   transform: scale(1.02);
 }

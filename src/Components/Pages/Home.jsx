@@ -10,6 +10,9 @@ import 'swiper/css/autoplay';
 import { Autoplay } from 'swiper/modules';
 import markme1 from '../../assets/Markme1.gif';
 import mark5 from '../../assets/Mark5.jpg';
+import auto from '../../assets/autoMATE.gif';
+import auto1 from '../../assets/finT.gif';
+import markME from '../../assets/MarkME.gif';
 
 // Images
 import Gemini01 from '../../assets/Gemini01.png';
@@ -168,29 +171,32 @@ function Home() {
       <div className='container3'>
         <div className='product'>
           <div className='prod-content'>
-            <img src={Gemini01} alt="tracker" />
+            <img src={auto1} alt="tracker" />
             <div className="prod-text">
               <h2>Finance Tracker</h2>
               <p>Track income, expenses, and trends effortlessly with AI-powered insights that help small businesses stay ahead financially — no spreadsheets required.</p>
+               <button className='button2'>Purchase</button>
             </div>
           </div>
         </div>
 
         <div className='product'>
           <div className='prod-content'>
-            <img src={Gemini01} alt="tracker" />
+            <img src={auto} alt="tracker" />
             <div className="prod-text">
-              <h2>Finance Tracker</h2>
-              <p>Track income, expenses, and trends effortlessly with AI-powered insights that help small businesses stay ahead financially — no spreadsheets required.</p>
+              <h2>AI Hospitality Management & Log Automation</h2>
+             <p>Automate daily operations, manage staff logs, and improve guest experience with smart hospitality tools that save time and boost service quality.</p>
+                <button className='button2'>Purchase</button>
             </div>
           </div>
         </div>
         <div className='product'>
           <div className='prod-content'>
-            <img src={Gemini01} alt="tracker" />
+            <img src={markME} alt="tracker" />
             <div className="prod-text">
-              <h2>Finance Tracker</h2>
-              <p>Track income, expenses, and trends effortlessly with AI-powered insights that help small businesses stay ahead financially — no spreadsheets required.</p>
+              <h2>Web Development</h2>
+              <p>Your website should work as hard as you do. That’s why we design clean, responsive sites that help small businesses connect, convert, and grow — all without the tech headaches.</p>
+                <button className='button2'>Purchase</button>
             </div>
           </div>
         </div>
