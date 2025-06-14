@@ -32,7 +32,7 @@ function Navbar() {
 
           <div className="auth-buttons">
             <NavLink to="/Register"><button className="btn">Sign In</button></NavLink>
-            <NavLink to="/Login"><button className="btn">Login</button></NavLink>
+            {/* <NavLink to="/Login"><button className="btn">Login</button></NavLink> */}
           </div>
 
           <button className="nav-toggle-btn" onClick={toggleNav} aria-label="Toggle Menu">
@@ -61,9 +61,9 @@ function Navbar() {
           <NavLink to="/Register" onClick={closeNav}>
             <button className="btn">Sign In</button>
           </NavLink>
-          <NavLink to="/Login" onClick={closeNav}>
+          {/* <NavLink to="/Login" onClick={closeNav}>
             <button className="btn">Login</button>
-          </NavLink>
+          </NavLink> */}
         </div>
       </div>
     </>

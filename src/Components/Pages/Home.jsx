@@ -8,11 +8,11 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/autoplay';
 import { Autoplay } from 'swiper/modules';
-import markme1 from '../../assets/Markme1.gif';
-import mark5 from '../../assets/Mark5.jpg';
-import auto from '../../assets/autoMATE.gif';
+
 import auto1 from '../../assets/finT.gif';
 import markME from '../../assets/MarkME.gif';
+import hospi from '../../assets/hospi.gif';
+import anMARK from '../../assets/anMARK.jpg';
 
 // Images
 import Gemini01 from '../../assets/Gemini01.png';
@@ -83,19 +83,23 @@ function Home() {
 
   return (
     <>
-      <div className="container">
-        <div className="hero" data-aos="fade-right">
-          <h1>
-            <span>Grow Smarter</span>, Not Harder.
-          </h1>
-          <p>
-            Simple AI automation to manage tasks, track performance, and grow without stress.
-          </p>
-          <button className='button1' data-aos="zoom-in" data-aos-delay="1000">
-            Get Started
-          </button>
-        </div>
-      </div>
+     <div className="hero-container">
+  <div className="hero-background" />
+
+  <div className="hero" data-aos="fade-right">
+    <h1>
+      <span>Grow Smarter</span>, Not Harder.
+    </h1>
+    <p>
+      Simple AI automation to manage tasks, track performance, and grow without stress.
+    </p>
+    <button className="button1" data-aos="zoom-in" data-aos-delay="1000">
+      Get Started
+    </button>
+  </div>
+</div>
+
+
 
       <div className="logo-carousel" style={{ background: color }}>
         <Swiper
@@ -182,7 +186,7 @@ function Home() {
 
         <div className='product'>
           <div className='prod-content'>
-            <img src={auto} alt="tracker" />
+            <img src={hospi} alt="tracker" />
             <div className="prod-text">
               <h2>AI Hospitality Management & Log Automation</h2>
              <p>Automate daily operations, manage staff logs, and improve guest experience with smart hospitality tools that save time and boost service quality.</p>
@@ -225,7 +229,7 @@ function Home() {
         </div>
 
         <div className='main1' data-aos="zoom-in" data-aos-delay="800">
-          <img src={markme1} alt="AI-powered marketing graphic" />
+          <img src={anMARK} alt="AI-powered marketing graphic" />
         </div>
       </div>
 
