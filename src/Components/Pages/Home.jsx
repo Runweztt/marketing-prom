@@ -83,21 +83,21 @@ function Home() {
 
   return (
     <>
-     <div className="hero-container">
-  <div className="hero-background" />
+      <div className="hero-container">
+        <div className="hero-background" />
 
-  <div className="hero" data-aos="fade-right">
-    <h1>
-      <span>Grow Smarter</span>, Not Harder.
-    </h1>
-    <p>
-      Simple AI automation to manage tasks, track performance, and grow without stress.
-    </p>
-    <button className="button1" data-aos="zoom-in" data-aos-delay="1000">
-      Get Started
-    </button>
-  </div>
-</div>
+        <div className="hero" data-aos="fade-right">
+          <h1>
+            <span>Grow Smarter</span>, Not Harder.
+          </h1>
+          <p>
+            Simple AI automation to manage tasks, track performance, and grow without stress.
+          </p>
+          <button className="button1" data-aos="zoom-in" data-aos-delay="1000">
+            Get Started
+          </button>
+        </div>
+      </div>
 
 
 
@@ -179,7 +179,7 @@ function Home() {
             <div className="prod-text">
               <h2>Finance Tracker</h2>
               <p>Track income, expenses, and trends effortlessly with AI-powered insights that help small businesses stay ahead financially — no spreadsheets required.</p>
-               <button className='button2'>Purchase</button>
+              <button className='button2'>Purchase</button>
             </div>
           </div>
         </div>
@@ -189,8 +189,8 @@ function Home() {
             <img src={hospi} alt="tracker" />
             <div className="prod-text">
               <h2>AI Hospitality Management & Log Automation</h2>
-             <p>Automate daily operations, manage staff logs, and improve guest experience with smart hospitality tools that save time and boost service quality.</p>
-                <button className='button2'>Purchase</button>
+              <p>Automate daily operations, manage staff logs, and improve guest experience with smart hospitality tools that save time and boost service quality.</p>
+              <button className='button2'>Purchase</button>
             </div>
           </div>
         </div>
@@ -200,7 +200,7 @@ function Home() {
             <div className="prod-text">
               <h2>Web Development</h2>
               <p>Your website should work as hard as you do. That’s why we design clean, responsive sites that help small businesses connect, convert, and grow — all without the tech headaches.</p>
-                <button className='button2'>Purchase</button>
+              <button className='button2'>Purchase</button>
             </div>
           </div>
         </div>
