@@ -34,8 +34,8 @@
 }
 
 .hero span {
-  border: 0 solid transparent;       /* Initially no border */
-  border-radius: 0;                  /* No rounding */
+  border: 0 solid transparent;       
+  border-radius: 0;                  
   margin: 4px;
   padding: 4px;
   display: inline-block;
@@ -44,8 +44,8 @@
 }
 
 .hero span:hover {
-  border: 5px solid #667eea;         /* Border appears on hover */
-  border-radius: 12px;               /* Smooth rounded corners */
+  border: 5px solid #667eea;         
+  border-radius: 12px;               
 }
 
 .button1{
@@ -60,7 +60,7 @@
 .button1:hover{
     color: white;
     background-color: black;
-    border: 5px solid #667eea;         /* Border appears on hover */
+    border: 5px solid #667eea;         
     border-radius: 12px; 
 
 }
@@ -167,7 +167,7 @@
 
 .content{
    display: flex;
-  align-items: flex-start; /* aligns items at the top */
+  align-items: flex-start; 
   justify-content: center;
   max-width: 1400px;
   width: 100%;
@@ -480,12 +480,12 @@
 
 @media (max-width: 768px) {
   .container3 {
-    height: auto; /* Remove fixed height */
+    height: auto; 
     padding: 2rem 1rem;
   }
 
   .product {
-    flex-direction: column; /* Stack content vertically */
+    flex-direction: column; 
     width: 95%;
     padding: 1.5rem;
     gap: 1rem;

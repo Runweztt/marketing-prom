@@ -7,7 +7,8 @@ import Feature from './Components/Pages/Feature'
 import Contact from './Components/Pages/Contact'
 import Register from './Components/Pages/Register'
 import Login from './Components/Pages/Login'
-import Home from './Components/Pages/home'
+import Home from "./Components/Pages/Home";
+
 
 function App() {
   const router = createBrowserRouter(
