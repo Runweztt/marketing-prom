@@ -10,7 +10,7 @@ import 'swiper/css/autoplay';
 import { Autoplay } from 'swiper/modules';
 
 import auto1 from '../../assets/finT.gif';
-import markME from '../../assets/MarkME.gif';
+import markME from '../../assets/Markme.gif';
 import hospi from '../../assets/hospi.gif';
 import anMARK from '../../assets/anMARK.jpg';
 
