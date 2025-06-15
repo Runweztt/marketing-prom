@@ -9,7 +9,7 @@ function Register() {
   const [registerPassword, setRegisterPassword] = useState("");
 
   const register = async (e) => {
-    e.preventDefault(); // prevent page reload
+    e.preventDefault(); 
 
     try {
       const userCredential = await createUserWithEmailAndPassword(
