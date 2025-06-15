@@ -8,7 +8,7 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/autoplay';
 import { Autoplay } from 'swiper/modules';
-import markme from '../../assets/markme.gif';
+// import markme from '../../assets/markme.gif';
 // import hospi from '../../assets/hospi.gif';
 // import anmark from '../../assets/anmark.jpg';
 // import auto1 from '../../assets/fint.gif';
