@@ -9,19 +9,19 @@ import 'swiper/css';
 import 'swiper/css/autoplay';
 import { Autoplay } from 'swiper/modules';
 
-import auto1 from '../../assets/finT.gif';
-import markme from '../../assets/Markme.gif';
+import auto1 from '../../assets/fint.gif';
+import markme from '../../assets/markme.gif';
 import hospi from '../../assets/hospi.gif';
-import anMARK from '../../assets/anMARK.jpg';
+import anmark from '../../assets/anmark.jpg';
 
 // Images
-import Gemini01 from '../../assets/Gemini01.png';
-import Gemini02 from '../../assets/Gemini02.png';
-import Gemini03 from '../../assets/Gemini03.png';
-import Gemini04 from '../../assets/Gemini04.png';
-import Gemini05 from '../../assets/Gemini05.png';
-import Gemini06 from '../../assets/Gemini06.png';
-import Gemini07 from '../../assets/Gemini07.png';
+import gemini01 from '../../assets/gemini01.png';
+import gemini02 from '../../assets/gemini02.png';
+import gemini03 from '../../assets/gemini03.png';
+import gemini04 from '../../assets/gemini04.png';
+import gemini05 from '../../assets/gemini05.png';
+import gemini06 from '../../assets/gemini06.png';
+import gemini07 from '../../assets/gemini07.png';
 
 function Home() {
   useEffect(() => {
@@ -31,37 +31,37 @@ function Home() {
   const imagesContent = [
     {
       id: 'gemini1',
-      image: Gemini01,
+      image: gemini01,
       description: 'Real estate firm tripled leads with AI follow-ups and tracking.',
     },
     {
       id: 'gemini2',
-      image: Gemini02,
+      image: gemini02,
       description: 'Fashion brand cut waste and boosted ROAS using AI sales tools.',
     },
     {
       id: 'gemini3',
-      image: Gemini03,
+      image: gemini03,
       description: 'Fitness app grew 70% by automating onboarding and plans.',
     },
     {
       id: 'gemini4',
-      image: Gemini04,
+      image: gemini04,
       description: 'Edtech startup gained 15k users with AI chat and lessons.',
     },
     {
       id: 'gemini5',
-      image: Gemini05,
+      image: gemini05,
       description: 'Skincare brand boosted sales 4x with AI quizzes and support.',
     },
     {
       id: 'gemini6',
-      image: Gemini06,
+      image: gemini06,
       description: 'Logistics firm got 60% more leads via AI workflows.',
     },
     {
       id: 'gemini7',
-      image: Gemini07,
+      image: gemini07,
       description: 'Tech startup hit 7 figures using AI-powered outreach.',
     },
   ];
@@ -229,7 +229,7 @@ function Home() {
         </div>
 
         <div className='main1' data-aos="zoom-in" data-aos-delay="800">
-          <img src={anMARK} alt="AI-powered marketing graphic" />
+          <img src={anmark} alt="AI-powered marketing graphic" />
         </div>
       </div>
 
