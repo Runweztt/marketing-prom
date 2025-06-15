@@ -10,7 +10,7 @@ import 'swiper/css/autoplay';
 import { Autoplay } from 'swiper/modules';
 
 import auto1 from '../../assets/finT.gif';
-import markME from '../../assets/Markme.gif';
+import markme from '../../assets/Markme.gif';
 import hospi from '../../assets/hospi.gif';
 import anMARK from '../../assets/anMARK.jpg';
 
@@ -196,7 +196,7 @@ function Home() {
         </div>
         <div className='product'>
           <div className='prod-content'>
-            <img src={markME} alt="tracker" />
+            <img src={markme} alt="tracker" />
             <div className="prod-text">
               <h2>Web Development</h2>
               <p>Your website should work as hard as you do. That’s why we design clean, responsive sites that help small businesses connect, convert, and grow — all without the tech headaches.</p>
