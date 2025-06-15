@@ -8,20 +8,20 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/autoplay';
 import { Autoplay } from 'swiper/modules';
-// import markme from '../../assets/markme.gif';
-// import hospi from '../../assets/hospi.gif';
-// import anmark from '../../assets/anmark.jpg';
-// import auto1 from '../../assets/fint.gif';
+import markme from '../../assets/markme.gif';
+import hospi from '../../assets/hospi.gif';
+import anmark from '../../assets/anmark.jpg';
+import auto1 from '../../assets/fint.gif';
 
 
-// // Images
-// import gemini01 from '../../assets/gemini01.png';
-// import gemini02 from '../../assets/gemini02.png';
-// import gemini03 from '../../assets/gemini03.png';
-// import gemini04 from '../../assets/gemini04.png';
-// import gemini05 from '../../assets/gemini05.png';
-// import gemini06 from '../../assets/gemini06.png';
-// import gemini07 from '../../assets/gemini07.png';
+// Images
+import gemini01 from '../../assets/gemini01.png';
+import gemini02 from '../../assets/gemini02.png';
+import gemini03 from '../../assets/gemini03.png';
+import gemini04 from '../../assets/gemini04.png';
+import gemini05 from '../../assets/gemini05.png';
+import gemini06 from '../../assets/gemini06.png';
+import gemini07 from '../../assets/gemini07.png';
 
 function Home() {
   useEffect(() => {
